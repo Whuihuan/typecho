@@ -1,0 +1,3 @@
+[submodule "usr/plugins/Restful"]
+	path = usr/plugins/Restful
+	url = git@github.com:Whuihuan/typecho-plugin-Restful.git

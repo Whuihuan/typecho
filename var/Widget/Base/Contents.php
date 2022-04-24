@@ -912,6 +912,7 @@ class Contents extends Base implements QueryInterface
         $html = Contents::pluginHandle()->trigger($parsed)->markdown($text);
 
         if (!$parsed) {
+            $text = isset($text)?$text:"";
             $html = Markdown::convert($text);
         }
 
